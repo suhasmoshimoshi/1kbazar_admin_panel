@@ -1,0 +1,29 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F1AC33;;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.nav-list li{
+    list-style: none;
+    height: 50px;
+}
+.nav-list li:hover {
+    background: red;
+        padding: 5px;
+}
+.nav-list li {
+    background-color: black;
+    border:2px solid white;
+    color: white;
+    border-radius:5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
